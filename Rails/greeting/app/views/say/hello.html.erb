@@ -1,0 +1,11 @@
+<h1>Hello View</h1>
+
+<h3>It's a nice view huh?</h3>
+
+
+<p>Hello, benuos noches, holla, there are so many different ways to say hello. What is your favorite way?</p>
+
+ <p>It is now <%= @time.stamp("3:45  - 24 April, 2017") %>  </p>
+
+<!--  <a href="/say/goodbye">goodbye</a> -->
+Time to say <%= link_to("goodbye!", say_goodbye_path)  %>

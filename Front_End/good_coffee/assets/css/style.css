@@ -1,0 +1,58 @@
+.jumbotron{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 20%;
+	margin-top: -70px;
+  margin-bottom: 0;
+
+}
+.jumbotron h1 {
+  color: #F7FAFE;
+  position: absolute;
+  left: 20px;
+}
+
+body{
+  background-color: #A2DED0;
+  color: #F7FAFE;
+ }
+
+ .mission{
+  background-color: #323232;
+  padding: 50px;
+  font-family: 'Raleway', 'sans-serif';
+ }
+
+ .features{
+  font-family: 'Muli', 'sans-serif';
+  padding-top: 30px;
+  color: 323232;
+ }
+
+ .features img{
+  width: 100%;
+ }
+
+ .navbar{
+  background: rgba(0,0,0,0.5);
+ }
+
+ .footer{
+  background-color: #D64541;
+  padding: 0 15px;
+ }
+
+ .footer p{
+  padding-top: 15px;
+
+ }
+
+ .footer a{
+  color: white;
+ }
+
+ .footer a:hover{
+  color: #323232;
+ }

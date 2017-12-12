@@ -1,0 +1,59 @@
+body{
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans- serif';
+	background: url("../images/background.jpg")no-repeat center center fixed;
+	background-size: cover;
+}
+
+#title {
+	color: blue;
+}
+.restaurant-group{
+	background-color: #CCC;
+	padding: 10px 10px 20px 10px; 
+	margin: 10px;
+}
+.restaurant-group h3{
+	color: rgb(141, 163, 185, 0.5);
+	font-weight:normal;
+	font-style: italic;
+	border-radius: 10px;
+	border:1 px solid black;
+}
+
+.restaurant-image{
+	width: 25%;
+	float: left;
+}
+
+.restaurant-spacing{
+	margin-left: 30%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+a{
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+a:hover{
+	background-color: #555;
+	border:1px solid;
+}
+
+p{
+	font-size: 1.2em; 
+	font-family: 'helvetica', 'arial', sans-serif;
+	font-weight: 100;
+	/*100-900*/
+	color: #777;
+	line-height: 125%;
+	letter-spacing: 2px;
+	/*text-align: center;*/
+}
